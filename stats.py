@@ -189,7 +189,7 @@ def load_data_from_db():
     conn.close()
     return (data, stop_dict)
 
-### poopy
+### visualizations
 def visualization(data, stop_dict):
     radius_labels = {
         416: "5 min (~400m)",

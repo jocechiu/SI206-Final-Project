@@ -22,6 +22,8 @@ PHILLY_LON = -75.1652
 POI_RADII = [416, 833, 1250]
 DB_NAME = "project_data.sqlite3"
 CALCULATED_DATA_FILE = "calculated_data.txt"
+NUM_SEPTA_RUNS = 6
+NUM_POI_RUNS = 24
 
 # Types of stops to gather from SEPTA
 STOP_TYPES = ["bus_stops", "trolley_stops", "rail_stations"]
@@ -184,7 +186,7 @@ def load_data_from_db():
     conn.close()
     return (data, stop_dict)
 
-### poopy
+### Visualizations
 def visualization(data, stop_dict):
     radius_labels = {
         416: "5 min (~400m)",
@@ -371,7 +373,7 @@ if __name__ == "__main__":
     # store septa stops; each call stores 25 new stops
     # we can have up to 50 stops per stop type, which would be 150 total.
     # this would mean we would have to run this up to 6 times, but 4 is fine.
-    for i in range(6):
+    for i in range(NUM_SEPTA_RUNS):
         print(f"Fetching SEPTA stops {a-25} to {a}...")
         septa.store_septa_stops()
         a += 25
@@ -382,7 +384,7 @@ if __name__ == "__main__":
 
     # note this function takes a long time since it waits ~1.1 seconds between each request, and there may be over 25 requests per call.
     total_pois = 0
-    for i in range(24):
+    for i in range(NUM_POI_RUNS):
         print(f"Fetching POIs {a-25} to {a}...")
         b = pois.store_pois()
         total_pois += b

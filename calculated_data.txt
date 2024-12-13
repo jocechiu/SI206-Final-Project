@@ -1,0 +1,123 @@
+Radius: 416
+  Stop Type: bus_stops
+    Top 5 stops with the MOST ATMs:
+      Walnut St & 17th St: 2 ATMs
+      16th St & Walnut St : 2 ATMs
+      Walnut St & 16th St: 2 ATMs
+      Walnut Locust Station: 1 ATMs
+      Market St & 18th St: 1 ATMs
+    Top 5 stops with the LEAST ATMs:
+      JFK Blvd & 15th St: 0 ATMs
+      16th St & Arch St: 0 ATMs
+      Arch St & 15th St: 0 ATMs
+      Juniper St & Commerce St: 0 ATMs
+      Broad St & Arch St: 0 ATMs
+  Stop Type: trolley_stops
+    Top 5 stops with the MOST ATMs:
+      36th St Portal Trolley Station: 2 ATMs
+      36th St Trolley Portal: 2 ATMs
+      30th St Trolley Station: 2 ATMs
+      30th St Trolley Station : 2 ATMs
+      Lancaster Av & 36th St: 1 ATMs
+    Top 5 stops with the LEAST ATMs:
+      13th St Trolley Station: 0 ATMs
+      19th St Trolley Station: 0 ATMs
+      22nd St Trolley Station: 0 ATMs
+      Girard Av & Broad St: 0 ATMs
+      Girard Av & 16th St: 0 ATMs
+  Stop Type: rail_stations
+    Top 5 stops with the MOST ATMs:
+      Airport Terminal C D: 8 ATMs
+      Airport Terminal A: 6 ATMs
+      Airport Terminal B: 6 ATMs
+      Airport Terminal E F: 6 ATMs
+      30th Street Station: 2 ATMs
+    Top 5 stops with the LEAST ATMs:
+      Market East: 0 ATMs
+      University City: 0 ATMs
+      Temple University: 0 ATMs
+      49th Street: 0 ATMs
+      North Broad: 0 ATMs
+
+Radius: 833
+  Stop Type: bus_stops
+    Top 5 stops with the MOST ATMs:
+      Walnut St & 17th St: 2 ATMs
+      Walnut Locust Station: 2 ATMs
+      Market St & 18th St: 2 ATMs
+      JFK Blvd & 18th St: 2 ATMs
+      Walnut St & Broad St - MBNS: 2 ATMs
+    Top 5 stops with the LEAST ATMs:
+      JFK Blvd & 15th St: 1 ATMs
+      Arch St & 15th St: 1 ATMs
+      Juniper St & Commerce St: 1 ATMs
+      Broad St & Arch St: 1 ATMs
+      Arch St & Broad St: 1 ATMs
+  Stop Type: trolley_stops
+    Top 5 stops with the MOST ATMs:
+      36th St Trolley Station: 7 ATMs
+      36th St & Market St: 7 ATMs
+      36th St Portal Trolley Station: 7 ATMs
+      36th St Trolley Portal: 7 ATMs
+      Lancaster Av & 36th St: 5 ATMs
+    Top 5 stops with the LEAST ATMs:
+      Girard Av & 17th St: 0 ATMs
+      Girard Av & 12th St: 0 ATMs
+      Girard Av & Ridge Av: 0 ATMs
+      Girard Av & 19th St: 0 ATMs
+      Girard Av & 11th St: 0 ATMs
+  Stop Type: rail_stations
+    Top 5 stops with the MOST ATMs:
+      Airport Terminal B: 10 ATMs
+      Airport Terminal C D: 10 ATMs
+      Airport Terminal E F: 9 ATMs
+      Airport Terminal A: 8 ATMs
+      Temple University: 7 ATMs
+    Top 5 stops with the LEAST ATMs:
+      North Philadelphia Amtrak: 0 ATMs
+      North Philadelphia: 0 ATMs
+      Allegheny: 0 ATMs
+      Angora: 0 ATMs
+      Wynnefield Avenue: 0 ATMs
+
+Radius: 1250
+  Stop Type: bus_stops
+    Top 5 stops with the MOST ATMs:
+      Market St & 18th St: 5 ATMs
+      JFK Blvd & 18th St: 5 ATMs
+      Chestnut St & 17th St: 5 ATMs
+      17th St & Chestnut St : 5 ATMs
+      17th St & Market St : 5 ATMs
+    Top 5 stops with the LEAST ATMs:
+      15th St Station: 2 ATMs
+      15th St & Market St: 2 ATMs
+      Market St & 15th St: 2 ATMs
+      City Hall Station: 2 ATMs
+      15th St & Ranstead St: 2 ATMs
+  Stop Type: trolley_stops
+    Top 5 stops with the MOST ATMs:
+      Lancaster Av & 36th St: 10 ATMs
+      36th St Trolley Station: 10 ATMs
+      36th St & Warren St: 10 ATMs
+      36th St & Market St: 10 ATMs
+      36th St Portal Trolley Station: 10 ATMs
+    Top 5 stops with the LEAST ATMs:
+      College Av & 24th St - FS: 0 ATMs
+      Girard Av & 24th St: 0 ATMs
+      Poplar St & 25th St: 0 ATMs
+      Poplar St & Stillman St: 0 ATMs
+      Girard Av & 26th St : 0 ATMs
+  Stop Type: rail_stations
+    Top 5 stops with the MOST ATMs:
+      Airport Terminal A: 10 ATMs
+      Airport Terminal B: 10 ATMs
+      Airport Terminal C D: 10 ATMs
+      Airport Terminal E F: 10 ATMs
+      Temple University: 9 ATMs
+    Top 5 stops with the LEAST ATMs:
+      Allegheny: 0 ATMs
+      Angora: 0 ATMs
+      Wynnefield Avenue: 0 ATMs
+      Wayne Junction: 0 ATMs
+      Fernwood-Yeadon: 0 ATMs
+

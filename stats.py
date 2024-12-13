@@ -20,9 +20,12 @@ PHILLY_LON = -75.1652
 # Average walking speed ~ 5 km/h = 83.3 m/min
 # 5 min -> ~416m, 10 min -> ~833m, 15 min -> ~1250m (approx)
 POI_RADII = [416, 833, 1250]
+# default "project_data.sqlite3"
 DB_NAME = "project_data.sqlite3"
 CALCULATED_DATA_FILE = "calculated_data.txt"
+# default 6
 NUM_SEPTA_RUNS = 6
+# default 24
 NUM_POI_RUNS = 24
 
 # Types of stops to gather from SEPTA
@@ -186,7 +189,7 @@ def load_data_from_db():
     conn.close()
     return (data, stop_dict)
 
-### Visualizations
+### poopy
 def visualization(data, stop_dict):
     radius_labels = {
         416: "5 min (~400m)",
@@ -372,14 +375,14 @@ if __name__ == "__main__":
     a = 25
     # store septa stops; each call stores 25 new stops
     # we can have up to 50 stops per stop type, which would be 150 total.
-    # this would mean we would have to run this up to 6 times, but 4 is fine.
+    # this would mean we would have to run this up to 6 times, which we do here.
     for i in range(NUM_SEPTA_RUNS):
         print(f"Fetching SEPTA stops {a-25} to {a}...")
         septa.store_septa_stops()
         a += 25
     a = 25
     # store POIs; each call stores 25 new POIs
-    # we could run this up to 300 times, but that would take a long time, so 10-15 would be a good start.
+    # we could run this up to 24 times, but that would take a long time, so 10-15 would be a good start.
     # the rule of thumb is to run this about 4 times more than the previous function.
 
     # note this function takes a long time since it waits ~1.1 seconds between each request, and there may be over 25 requests per call.
